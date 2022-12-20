@@ -3,7 +3,6 @@
 
     <main class="t-base__main js-content">
 
-
         <section class="s-hero js-hero">
             <div class="s-hero__container">
                 <div class="s-hero__content">
