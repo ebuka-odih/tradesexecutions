@@ -5,7 +5,7 @@
     <link rel='stylesheet' id='story-block-styles-css' href='{{ asset('wp-content/themes/quantfury/frontend/public/styles/story.minaffa.css?ver=b2ddef7dd8199fe399af54b899c61e24') }}' type='text/css' media='all' />
     <link rel='stylesheet' id='classic-theme-styles-css' href='{{ asset('wp-includes/css/classic-themes.min68b3.css?ver=1') }}' type='text/css' media='all' />
 
-<main style="background-color: #fff0ff" class="t-base__main js-content">
+<main style="background-color: #fff" class="t-base__main js-content">
 
 
     <section class="s-story">
