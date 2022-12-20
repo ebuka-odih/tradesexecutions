@@ -57,7 +57,7 @@
         :where(.wp-block-columns.is-layout-flex){gap: 2em;}
         .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
     </style>
-   
+
     <script type='text/javascript' src='{{ asset('wp-content/plugins/sitepress-multilingual-cms/dist/js/browser-redirect/app75a0.js?ver=4.5.14') }}' id='wpml-browser-redirect-js'></script>
     <link rel="https://api.w.org/" href="wp-json/index.html" /><link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/7.json" /><meta name="generator" content="WPML ver:4.5.14 stt:67,1,4,3,66,45,2,53;" />
     <style>a.pld-like-dislike-trigger {color: #103055;}span.pld-count-wrap {color: #103055;}</style><link rel="apple-touch-icon" sizes="180x180" href="wp-content/uploads/fbrfg/apple-touch-icon.png">
@@ -98,109 +98,7 @@
     <div class="js-plugin-lang-switcher" style="display: none;">
 
         <div class="wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-legacy-dropdown-click js-wpml-ls-legacy-dropdown-click">
-            <ul>
 
-                <li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-first-item wpml-ls-item-legacy-dropdown-click">
-
-                    <a href="#" class="js-wpml-ls-item-toggle wpml-ls-item-toggle">
-                        <img
-                            class="wpml-ls-flag"
-                            src="wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png"
-                            alt=""
-                            width=18
-                            height=12
-                        /><span class="wpml-ls-native">English</span></a>
-
-                    <ul class="js-wpml-ls-sub-menu wpml-ls-sub-menu">
-
-                        <li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-espanol">
-                            <a href="espanol/index.html" class="wpml-ls-link">
-                                <img
-                                    class="wpml-ls-flag"
-                                    src="wp-content/plugins/sitepress-multilingual-cms/res/flags/es.png"
-                                    alt=""
-                                    width=18
-                                    height=12
-                                /><span class="wpml-ls-display">Español</span></a>
-                        </li>
-
-
-                        <li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-french">
-                            <a href="french/index.html" class="wpml-ls-link">
-                                <img
-                                    class="wpml-ls-flag"
-                                    src="wp-content/plugins/sitepress-multilingual-cms/res/flags/fr.png"
-                                    alt=""
-                                    width=18
-                                    height=12
-                                /><span class="wpml-ls-display">Français</span></a>
-                        </li>
-
-
-                        <li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-turkce">
-                            <a href="turkce/index.html" class="wpml-ls-link">
-                                <img
-                                    class="wpml-ls-flag"
-                                    src="wp-content/plugins/sitepress-multilingual-cms/res/flags/tr.png"
-                                    alt=""
-                                    width=18
-                                    height=12
-                                /><span class="wpml-ls-display">Türkçe</span></a>
-                        </li>
-
-
-                        <li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-deutsch">
-                            <a href="deutsch/index.html" class="wpml-ls-link">
-                                <img
-                                    class="wpml-ls-flag"
-                                    src="wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png"
-                                    alt=""
-                                    width=18
-                                    height=12
-                                /><span class="wpml-ls-display">Deutsch</span></a>
-                        </li>
-
-
-                        <li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-portuge">
-                            <a href="portuge/index.html" class="wpml-ls-link">
-                                <img
-                                    class="wpml-ls-flag"
-                                    src="wp-content/uploads/flags/pt.png"
-                                    alt=""
-                                    width=18
-                                    height=12
-                                /><span class="wpml-ls-display">Português</span></a>
-                        </li>
-
-
-                        <li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-russian">
-                            <a href="russian/index.html" class="wpml-ls-link">
-                                <img
-                                    class="wpml-ls-flag"
-                                    src="wp-content/plugins/sitepress-multilingual-cms/res/flags/ru.png"
-                                    alt=""
-                                    width=18
-                                    height=12
-                                /><span class="wpml-ls-display">Русский</span></a>
-                        </li>
-
-
-                        <li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-chinese wpml-ls-last-item">
-                            <a href="chinese/index.html" class="wpml-ls-link">
-                                <img
-                                    class="wpml-ls-flag"
-                                    src="wp-content/uploads/flags/cn.png"
-                                    alt=""
-                                    width=18
-                                    height=12
-                                /><span class="wpml-ls-display">简体中文</span></a>
-                        </li>
-
-                    </ul>
-
-                </li>
-
-            </ul>
         </div>
 
     </div>
@@ -214,8 +112,9 @@
         <div class="header__container">
             <a class="header-logo" href="index.html">
                 <span class="visually-hidden">Go to main page</span>
-                <img class="header-logo__icon" src="wp-content/uploads/2021/04/logo.svg"
-                     alt="">
+{{--                <img class="header-logo__icon" src="wp-content/uploads/2021/04/logo.svg"--}}
+{{--                     alt="">--}}
+                <h2 style="color: white; font-weight: bolder">TradesExcutions</h2>
             </a>
 
             <nav class="header-nav" data-nav data-scroll-lock-scrollable>
@@ -545,7 +444,7 @@
 <footer class="footer js-footer">
     <article class="footer__info">
         <div class="footer__info-container">
-            Quantfury allows users to obtain economic exposure to the price movement of an underlying financial instrument without the need for ownership and physical settlement of the underlying financial instrument. As such references to “trades,” “trading,” "buy," and "sell" as part of Quantfury, should be understood as user-directed exposures to positions of various financial instruments that undergo price fluctuations, without ownership of the underlying financial instrument. A Quantfury user who has an existing opened long position in a stock at the market open on the company's ex-dividend date will receive the announced dividend per share amount. A Quantfury user who has an existing short position in a stock at the market open on the company's ex-dividend date will pay the announced dividend per share amount. As with all trading of equities, commodities, cryptocurrencies, and fiat currencies, user-directed exposures and "trading" using Quantfury carries a level of risk that may not be suitable for all persons interested in trading. You may sustain a loss of some or all of your invested capital, therefore, you should not speculate with capital that you cannot afford to lose. You should seek advice from an independent financial advisor before taking user-directed exposures or "trading" using Quantfury. The information found on this website isn’t applicable to residents of the USA or Canada and should not be used or accessed in any country or jurisdiction where such use or access is not permitted under applicable law.
+            TradesExcution                                        allows users to obtain economic exposure to the price movement of an underlying financial instrument without the need for ownership and physical settlement of the underlying financial instrument. As such references to “trades,” “trading,” "buy," and "sell" as part of TradesExcution                                       , should be understood as user-directed exposures to positions of various financial instruments that undergo price fluctuations, without ownership of the underlying financial instrument. A TradesExcution                                        user who has an existing opened long position in a stock at the market open on the company's ex-dividend date will receive the announced dividend per share amount. A TradesExcution                                        user who has an existing short position in a stock at the market open on the company's ex-dividend date will pay the announced dividend per share amount. As with all trading of equities, commodities, cryptocurrencies, and fiat currencies, user-directed exposures and "trading" using TradesExcution                                        carries a level of risk that may not be suitable for all persons interested in trading. You may sustain a loss of some or all of your invested capital, therefore, you should not speculate with capital that you cannot afford to lose. You should seek advice from an independent financial advisor before taking user-directed exposures or "trading" using TradesExcution                                       . The information found on this website isn’t applicable to residents of the USA or Canada and should not be used or accessed in any country or jurisdiction where such use or access is not permitted under applicable law.
         </div>
     </article>
     <div class="footer__line-wrap"><span class="footer__line"></span></div>
@@ -701,7 +600,7 @@
                                 <li class="footer-item__subitem">
                                     <a href="https://help.quantfury.com/en/collections/2871306-trading-on-quantfury" data-prefetch data-link
                                        class="footer-item__sublink"  target="_blank" >
-                                        Trading & Investing on Quantfury
+                                        Trading & Investing on TradesExcution
                                     </a>
                                 </li>
                                 <li class="footer-item__subitem">
@@ -727,9 +626,9 @@
 
             <div class="footer__legal">
                 <div class="footer__legal-text" data-legal-text>
-                    <p>© 2022 Quantfury. All rights reserved.</p>
-                    <p>Quantfury means Quantfury Trading Limited and its mobile app and web-based application. </p>
-                    <p>Quantfury is authorized and regulated by Securities Commission of the Bahamas. View Quantfury’s Brokerage license no. <a href="Registration-Certificate-Quantfury.pdf" target="_blank" rel="noopener">SIA-F204</a>. Search Quantfury Brokerage license <a href="https://www.scb.gov.bs/wp-content/uploads/2021/12/SIA-Firms-as-at-30-November-2021.pdf" target="_blank" rel="noopener">here</a>. View Quantfury&#8217;s custody of digital assets, wallet provider licence <a href="Quantfury-custody-of-digital-assets-wallet-provider-licence.pdf" target="_blank" rel="noopener">FCSPA NO. F-034</a>.</p>
+                    <p>© 2022 TradesExcution                                       . All rights reserved.</p>
+                    <p>TradesExcution                                        means TradesExcution                                        Trading Limited and its mobile app and web-based application. </p>
+                    <p>TradesExcution                                        is authorized and regulated by Securities Commission of the Bahamas. View TradesExcution                                       ’s Brokerage license no. <a href="Registration-Certificate-TradesExcution                                       .pdf" target="_blank" rel="noopener">SIA-F204</a>. Search TradesExcution                                        Brokerage license <a href="https://www.scb.gov.bs/wp-content/uploads/2021/12/SIA-Firms-as-at-30-November-2021.pdf" target="_blank" rel="noopener">here</a>. View TradesExcution                                       &#8217;s custody of digital assets, wallet provider licence <a href="Quantfury-custody-of-digital-assets-wallet-provider-licence.pdf" target="_blank" rel="noopener">FCSPA NO. F-034</a>.</p>
 
                 </div>
                 <ul class="footer__legal-list">
@@ -755,10 +654,10 @@
             <img data-flag src="wp-content/uploads/2021/11/USA.svg" >
         </div>
         <div class="popup__container-header" data-title>
-            Quantfury is not available in the United States
+            TradesExcution                                        is not available in the United States
         </div>
         <div class="popup__container-body" data-description>
-            Quantfury does not provide services to citizens and/or residents of the United States. Accordingly, access to Quantfury’s website is not permitted from your location.
+            TradesExcution                                        does not provide services to citizens and/or residents of the United States. Accordingly, access to TradesExcution                                       ’s website is not permitted from your location.
         </div>
         <div class="popup__container-footer">
             <img src="wp-content/themes/quantfury/frontend/public/images/logo-popup.svg" />

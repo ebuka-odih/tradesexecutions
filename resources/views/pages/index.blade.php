@@ -219,7 +219,7 @@
                             Made for everyone
                         </h2>
                         <div class="s-regular__description">
-                            <p>Quantfury was designed from the ground up to make trading and investing intuitive, and as simple as running water.</p>
+                            <p>TradesExcution                                        was designed from the ground up to make trading and investing intuitive, and as simple as running water.</p>
                             <br>
                             <p>Sign up and verify your account in under 2 minutes, to trade and invest with unmatched conditions on your desktop or mobile device.</p>
                         </div>
@@ -240,7 +240,7 @@
                         <div class="s-regular__description">
                             <p>Other trading platforms and brokerages charge commissions and borrowing fees, or various sorts of hidden fees.</p>
                             <br>
-                            <p>In Quantfury, there are no trade commissions, no borrowing fees – no fees of ANY kind.</p>
+                            <p>In TradesExcution                                       , there are no trade commissions, no borrowing fees – no fees of ANY kind.</p>
                         </div>
 
                     </div>
@@ -276,11 +276,11 @@
                             Transparency
                         </h2>
                         <div class="s-regular__description">
-                            Quantfury user trading data is digitized and published anonymously using a smart contract and IPFS, so the authenticity of the Quantfury unmatched trading conditions and volume can always be verified.
+                            TradesExcution                                        user trading data is digitized and published anonymously using a smart contract and IPFS, so the authenticity of the TradesExcution                                        unmatched trading conditions and volume can always be verified.
                         </div>
 
                         <footer class="s-regular__footer">
-                            <a class="s-regular__link btn btn--primary" data-prefetch data-link href="https://qtf.quantfury.com/"  target="_blank" >
+                            <a class="s-regular__link btn btn--primary" data-prefetch data-link href="https://qtf.TradesExcution                                       .com/"  target="_blank" >
                                 Access
                             </a>
                         </footer>
