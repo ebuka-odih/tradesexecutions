@@ -346,11 +346,11 @@
                 </ul>
 
                 <div class="header-auth header-auth--mobile">
-                    <a href="https://trading.quantfury.com/auth/login"
+                    <a href="{{ route('login') }}"
                        class="header-btn btn btn--pure">
                         Log In
                     </a>
-                    <a href="https://trading.quantfury.com/auth/registration"
+                    <a href="{{ route('register') }}"
                        class="header-btn btn btn--primary">
                         Sign Up
                     </a>
