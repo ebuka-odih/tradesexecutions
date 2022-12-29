@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="https://crypto-tokenizer-admin-dashboard.multipurposethemes.com/bs4/images/favicon.ico">
 
-    <title>Dashboard | Whales Corp</title>
+    <title>Dashboard | Tradesexecutions</title>
 {{--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />--}}
 {{--    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>--}}
 
@@ -35,7 +35,7 @@
             <a href="{{ route('index') }}" class="logo">
                 <!-- logo-->
                 <div class="logo-lg">
-                    <h3 class="mt-3" style="font-weight: bolder; color: #1288c9 !important">Whales Corp</h3>
+                    <h3 class="mt-3" style="font-weight: bolder; color: #1288c9 !important">Tradesexecutions</h3>
 
                 </div>
             </a>
@@ -227,7 +227,7 @@
         <div class="pull-right d-none d-sm-inline-block">
 
         </div>
-        &copy; 2020 <a href="https://www.Whales Corp.co/">Whales Corp</a>. All Rights Reserved.
+        &copy; 2020 <a href="https://www.Tradesexecutions.com/">Tradesexecutions</a>. All Rights Reserved.
     </footer>
 
 

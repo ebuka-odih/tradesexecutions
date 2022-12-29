@@ -1,7 +1,7 @@
 @extends('pages.layout.app')
 @section('content')
 
-    <main class="t-base__main js-content">
+    <main  class="t-base__main js-content">
 
         <section class="s-hero js-hero">
             <div class="s-hero__container">

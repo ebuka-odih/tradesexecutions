@@ -59,23 +59,19 @@
     </style>
 
     <script type='text/javascript' src='{{ asset('wp-content/plugins/sitepress-multilingual-cms/dist/js/browser-redirect/app75a0.js?ver=4.5.14') }}' id='wpml-browser-redirect-js'></script>
-    <link rel="https://api.w.org/" href="wp-json/index.html" />
     <link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/7.json" />
     <meta name="generator" content="WPML ver:4.5.14 stt:67,1,4,3,66,45,2,53;" />
-    <style>a.pld-like-dislike-trigger {color: #103055;}span.pld-count-wrap {color: #103055;}</style><link rel="apple-touch-icon" sizes="180x180" href="wp-content/uploads/fbrfg/apple-touch-icon.png">
+    <style>a.pld-like-dislike-trigger {color: #103055;}span.pld-count-wrap {color: #103055;}</style>
+    <link rel="apple-touch-icon" sizes="180x180" href="wp-content/uploads/fbrfg/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="wp-content/uploads/fbrfg/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="wp-content/uploads/fbrfg/favicon-16x16.png">
+
     <link rel="manifest" href="wp-content/uploads/fbrfg/site.webmanifest">
     <link rel="mask-icon" href="wp-content/uploads/fbrfg/safari-pinned-tab.svg" color="#303d51">
     <link rel="shortcut icon" href="wp-content/uploads/fbrfg/favicon.ico">
     <meta name="msapplication-TileColor" content="#00aba9">
     <meta name="msapplication-config" content="/wp-content/uploads/fbrfg/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff"><!-- Google Tag Manager -->
-
-    <!-- End Google Tag Manager -->
-
-
-    <!-- wp-head-end -->
+    <meta name="theme-color" content="#ffffff">
 
 </head>
 
@@ -94,13 +90,13 @@
     </div>
     <div class="header-top" data-caution>
         <div class="header-top__container">
-            <p><strong>Trade with caution.</strong> Contracts for difference (CFDs) are complex instruments and come with a high risk of losing money rapidly due to leverage. <strong>73.62% of retail investor accounts lose money when trading CFDs at real-time spot prices of global and crypto exchanges free of any fees with Quantfury.</strong> You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money.</p>
+            <p><strong>Trade with caution.</strong> Contracts for difference (CFDs) are complex instruments and come with a high risk of losing money rapidly due to leverage. <strong>73.62% of retail investor accounts lose money when trading CFDs at real-time spot prices of global and crypto exchanges free of any fees with TradesExecution.</strong> You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money.</p>
 
         </div>
     </div>
     <div class="header__fixed" data-fixed>
         <div class="header__container">
-            <a class="header-logo" href="index.html">
+            <a class="header-logo" href="{{ route('index') }}">
                 <span class="visually-hidden">Go to main page</span>
 {{--                <img class="header-logo__icon" src="wp-content/uploads/2021/04/logo.svg"--}}
 {{--                     alt="">--}}
@@ -247,7 +243,7 @@
                                             </svg>
                                         </li>
                                         <li class="header-item__subitem">
-                                            <a href="commitments/index.html" data-prefetch data-link
+                                            <a href="{{ route('commitments') }}" data-prefetch data-link
                                                class="header-item__sublink  "
                                             >
                                                 <strong>Commitments</strong>
@@ -549,7 +545,7 @@
                                     </a>
                                 </li>
                                 <li class="footer-item__subitem">
-                                    <a href="commitments/index.html" data-prefetch data-link
+                                    <a href="{{ route('commitments') }}" data-prefetch data-link
                                        class="footer-item__sublink" >
                                         Commitments
                                     </a>
@@ -661,14 +657,14 @@
 
 
 
-
-<script type='text/javascript' src='wp-content/themes/quantfury/frontend/public/js/librariesd198.js?ver=c3ee6f7344dcadc0836ce12f062b5506' id='quantfury-libraries-js'></script>
+<script type='text/javascript' src='{{ asset('wp-content/plugins/sitepress-multilingual-cms/dist/js/browser-redirect/app75a0.js?ver=4.5.14') }}' id='wpml-browser-redirect-js'></script>
+<script type='text/javascript' src='{{ asset('wp-content/themes/quantfury/frontend/public/js/librariesd198.js?ver=c3ee6f7344dcadc0836ce12f062b5506') }}' id='quantfury-libraries-js'></script>
 <script type='text/javascript' id='quantfury-scripts-js-extra'>
     /* <![CDATA[ */
     var siteLanguage = {"code":"en"};
     /* ]]> */
 </script>
-<script type='text/javascript' src='wp-content/themes/quantfury/frontend/public/js/scripts7c0a.js?ver=f6f77d7bf75cbdf6574645ab18af2db1' id='quantfury-scripts-js'></script>
+<script type='text/javascript' src='{{ asset('wp-content/themes/quantfury/frontend/public/js/scripts7c0a.js?ver=f6f77d7bf75cbdf6574645ab18af2db1') }}' id='quantfury-scripts-js'></script>
 
 
 

@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'pages.index')->name('index');
 Route::view('/about', 'pages.about')->name('about');
+Route::view('/commitments', 'pages.commitments')->name('commitments');
 
 
 Auth::routes(['verify' => true]);
