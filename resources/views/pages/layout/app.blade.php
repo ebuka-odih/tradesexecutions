@@ -4,42 +4,34 @@
 <head>
     <meta charset="UTF-8"/>
 
-    <title>Quantfury | Everybody&#039;s Honest Trading &amp; Investing</title>
+    <title>TradesExecution | Everybody&#039;s Honest Trading &amp; Investing</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-
-
-
-    <link rel="preload" href="wp-content/themes/quantfury/frontend/public/fonts/UniNeueBold.otf"  as="font" type="font/otf" crossorigin="">
-    <link rel="preload" href="wp-content/themes/quantfury/frontend/public/fonts/UniNeueBold.woff2" as="font" type="font/woff2" crossorigin="">
-    <link rel="preload" href="wp-content/themes/quantfury/frontend/public/fonts/UniNeueRegular.otf"  as="font" type="font/otf" crossorigin="">
-    <link rel="preload" href="wp-content/themes/quantfury/frontend/public/fonts/UniNeueRegular.woff2" as="font" type="font/woff2" crossorigin="">
 
     <link rel="profile" href="https://gmpg.org/xfn/11">
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700&amp;display=swap" rel="stylesheet">
     <!-- wp-head -->
 
     <!-- This site is optimized with the Yoast SEO Premium plugin v18.9 (Yoast SEO v19.12) - https://yoast.com/wordpress/plugins/seo/ -->
-    <meta name="description" content="Quantfury – trade and invest FREE of commissions and borrowing fees at real-time spot prices of global exchanges." />
+    <meta name="description" content="TradesExecution – trade and invest FREE of commissions and borrowing fees at real-time spot prices of global exchanges." />
     <link rel="canonical" href="index.html" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Quantfury | Everybody&#039;s Honest Trading &amp; Investing" />
-    <meta property="og:description" content="Quantfury – trade and invest FREE of commissions and borrowing fees at real-time spot prices of global exchanges." />
+    <meta property="og:title" content="TradesExecution | Everybody&#039;s Honest Trading &amp; Investing" />
+    <meta property="og:description" content="TradesExecution – trade and invest FREE of commissions and borrowing fees at real-time spot prices of global exchanges." />
     <meta property="og:url" content="index.html" />
-    <meta property="og:site_name" content="Quantfury" />
+    <meta property="og:site_name" content="TradesExecution" />
     <meta property="article:modified_time" content="2022-11-19T22:41:22+00:00" />
     <meta property="og:image" content="wp-content/uploads/2022/06/facebook-OG-img.jpg" />
     <meta property="og:image:width" content="2400" />
     <meta property="og:image:height" content="1260" />
     <meta property="og:image:type" content="image/jpeg" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Quantfury | Everybody&#039;s Honest Trading &amp; Investing" />
-    <meta name="twitter:description" content="Quantfury – trade and invest FREE of commissions and borrowing fees at real-time spot prices of global exchanges." />
+    <meta name="twitter:title" content="TradesExecution | Everybody&#039;s Honest Trading &amp; Investing" />
+    <meta name="twitter:description" content="TradesExecution – trade and invest FREE of commissions and borrowing fees at real-time spot prices of global exchanges." />
     <meta name="twitter:image" content="wp-content/uploads/2022/06/facebook-OG-img.jpg" />
-    <meta name="twitter:site" content="@quantfury" />
+    <meta name="twitter:site" content="@TradesExecution" />
 
 
     <!-- / Yoast SEO Premium plugin. -->
@@ -112,12 +104,13 @@
                             <span class="header-item__text">Markets</span>
                             <span class="header-item__line"></span>
                             <span class="header-item__arrow">
-                                                        <svg class="el-icon header-item__arrow-img">
-        <use xmlns:xlink="http://www.w3.org/1999/xlink"
-             xlink:href="wp-content/themes/quantfury/frontend/public/images/svg_sprite_inline/sprite_inline.svg#ic-arrow"
-        ></use>
-    </svg>
-                                                </span>
+                             <svg class="el-icon header-item__arrow-img">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                     xlink:href="wp-content/themes/quantfury/frontend/public/images/svg_sprite_inline/sprite_inline.svg#ic-arrow"
+                                ></use>
+                            </svg>
+
+                            </span>
                         </button>
 
                         <div class="header-item__wrap" data-subnav-dropdown>
@@ -125,7 +118,7 @@
                                 <div class="header-item__wrap--container-list">
                                     <ul class="header-item__subnav">
                                         <li class="header-item__subitem">
-                                            <a href="https://help.quantfury.com/en/articles/5448752-stocks" data-prefetch data-link
+                                            <a href="{{ route('login') }}" data-prefetch data-link
                                                class="header-item__sublink  "
                                                target="_blank" >
                                                 <strong>Stocks</strong>
@@ -138,7 +131,7 @@
                                             </svg>
                                         </li>
                                         <li class="header-item__subitem">
-                                            <a href="https://help.quantfury.com/en/articles/5448756-crypto-pairs" data-prefetch data-link
+                                            <a href="{{ route('login') }}" data-prefetch data-link
                                                class="header-item__sublink  "
                                                target="_blank" >
                                                 <strong>Crypto Pairs</strong>
@@ -151,7 +144,7 @@
                                             </svg>
                                         </li>
                                         <li class="header-item__subitem">
-                                            <a href="https://help.quantfury.com/en/articles/5448760-etfs" data-prefetch data-link
+                                            <a href="{{ route('login') }}" data-prefetch data-link
                                                class="header-item__sublink  "
                                                target="_blank" >
                                                 <strong>ETFs</strong>
@@ -166,7 +159,7 @@
                                     </ul>
                                     <ul class="header-item__subnav header-item__subnav">
                                         <li class="header-item__subitem">
-                                            <a href="https://help.quantfury.com/en/articles/5448767-futures" data-prefetch data-link
+                                            <a href="{{ route('login') }}" data-prefetch data-link
                                                class="header-item__sublink  "
                                                target="_blank" >
                                                 <strong>Index Futures</strong>
@@ -179,7 +172,7 @@
                                             </svg>
                                         </li>
                                         <li class="header-item__subitem">
-                                            <a href="https://help.quantfury.com/en/articles/5448767-futures" data-prefetch data-link
+                                            <a href="{{ route('login') }}" data-prefetch data-link
                                                class="header-item__sublink  "
                                                target="_blank" >
                                                 <strong>Commodity Futures</strong>
@@ -192,7 +185,7 @@
                                             </svg>
                                         </li>
                                         <li class="header-item__subitem">
-                                            <a href="https://help.quantfury.com/en/articles/5448771-forex-pairs" data-prefetch data-link
+                                            <a href="{{ route('login') }}" data-prefetch data-link
                                                class="header-item__sublink  "
                                                target="_blank" >
                                                 <strong>Forex Pairs</strong>
@@ -255,59 +248,14 @@
                                                 ></use>
                                             </svg>
                                         </li>
-                                        <li class="header-item__subitem">
-                                            <a href="team/index.html" data-prefetch data-link
-                                               class="header-item__sublink  "
-                                            >
-                                                <strong>Team</strong>
-                                                <span class="header-item__sublink-count"></span>
-                                            </a>
-                                            <svg class="el-icon header-item__sublink-arrow">
-                                                <use xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                     xlink:href="wp-content/themes/quantfury/frontend/public/images/svg_sprite_inline/sprite_inline.svg#ic-menu-arrow"
-                                                ></use>
-                                            </svg>
-                                        </li>
+
                                     </ul>
-                                    <ul class="header-item__subnav header-item__subnav">
-                                        <li class="header-item__highlight">
-                                            <div class="header-item__highlight-content"
-                                                 style="background-image: url('wp-content/uploads/2022/10/qtf-token-background-image.svg')">
-                                                                    <span class="header-item__highlight-icon"><img
-                                                                            src="wp-content/uploads/2022/10/qtf-token-icon.svg">QTF Token</span>
-                                                <a class="header-item__highlight-btn btn btn--primary"
-                                                   href="qtf-token/index.html">Learn more</a>
-                                            </div>
-                                            <a href="qtf-token/index.html" data-prefetch data-link
-                                               class="header-item__sublink  header-item__sublink--single-link  "
-                                               target="_blank" >
-                                                <strong>QTF Token</strong>
-                                                <span class="header-item__sublink-count"></span>
-                                            </a>
-                                        </li>
-                                    </ul>
+
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <li class="header-item "
-                    >
 
-                        <a class="header-item__link  "
-                           href="gazette/index.html" data-prefetch>
-                            <span>Gazette</span>
-                            <span class="header-item__line"></span>
-                        </a>
-                    </li>
-                    <li class="header-item "
-                    >
-
-                        <a class="header-item__link  "
-                           target="_blank"                                            href="https://help.quantfury.com/en/" data-prefetch>
-                            <span>Support</span>
-                            <span class="header-item__line"></span>
-                        </a>
-                    </li>
 
                     <li class="header-switcher header-switcher--mobile js-switcher header-item header-item--subnav"
                         data-item-subnav>
@@ -388,11 +336,11 @@
                 </div>
             </div>
             <div class="header-auth header-auth--desktop">
-                <a href="https://trading.quantfury.com/auth/login"
+                <a href="{{ route('login') }}"
                    class="header-btn btn btn--pure">
                     Log In
                 </a>
-                <a href="https://trading.quantfury.com/auth/registration"
+                <a href="{{ route('register') }}"
                    class="header-btn btn btn--primary">
                     Sign Up
                 </a>
@@ -440,47 +388,13 @@
             <div class="footer__left">
                 <div class="footer__left-main">
                     <div class="footer__logo">
-                        <img class="footer__logo-icon" src="wp-content/uploads/2021/04/logo.svg" alt="">
+                        <h3 style="font-weight: bolder; color: white">TradesExecution</h3>
                     </div>
 
                     <div class="footer__challenge-text">
                         Trade and invest FREE of commissions and borrowing fees at real-time spot prices of NYSE, Nasdaq, CME, Bats, Binance and Coinbase exchanges.
 
                     </div>
-                    <ul class="footer__social-list">
-                        <li class="footer__social-item">
-                            <a href="https://twitter.com/quantfury" class="footer__social-link" data-prefetch data-link  target="_blank" >
-                                <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M19.9617 2.8499C19.2242 3.17406 18.4367 3.3949 17.6075 3.49573C18.4525 2.98656 19.1025 2.18406 19.41 1.22656C18.6175 1.68906 17.7392 2.02573 16.8042 2.21323C16.0575 1.41406 14.9933 0.914062 13.8117 0.914062C11.5475 0.914062 9.71167 2.7499 9.71167 5.01156C9.71167 5.33656 9.74917 5.64906 9.8175 5.94823C6.40917 5.7874 3.38833 4.15073 1.36667 1.67656C1.01083 2.27823 0.811667 2.9774 0.811667 3.73906C0.811667 5.16406 1.53667 6.41656 2.635 7.1524C1.9625 7.13073 1.33 6.94573 0.778333 6.63906V6.6899C0.778333 8.6774 2.18917 10.3349 4.06667 10.7124C3.7225 10.8049 3.35917 10.8549 2.98667 10.8549C2.725 10.8549 2.47417 10.8299 2.22333 10.7832C2.74917 12.4107 4.26083 13.5974 6.06 13.6307C4.66 14.7299 2.88583 15.3849 0.975 15.3849C0.65 15.3849 0.325833 15.3657 0 15.3291C1.82417 16.4907 3.97333 17.1699 6.2975 17.1699C13.8425 17.1699 17.9633 10.9232 17.9633 5.5149C17.9633 5.34073 17.9633 5.1649 17.9508 4.9899C18.7517 4.41573 19.4508 3.6899 20.0008 2.86656L19.9617 2.8499Z" fill="white"/>
-                                </svg>
-
-                            </a>
-                        </li>
-                        <li class="footer__social-item">
-                            <a href="https://www.youtube.com/c/Quantfury" class="footer__social-link" data-prefetch data-link  target="_blank" >
-                                <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M23.76 4.55606C23.76 4.55606 23.527 2.90106 22.805 2.17506C21.89 1.21806 20.869 1.21406 20.4 1.15606C17.044 0.914062 12.005 0.914062 12.005 0.914062H11.995C11.995 0.914062 6.956 0.914062 3.6 1.15606C3.131 1.21406 2.11 1.21806 1.195 2.17606C0.473 2.90206 0.244 4.55606 0.244 4.55606C0.244 4.55606 0 6.50206 0 8.44306V10.2611C0 12.2021 0.24 14.1471 0.24 14.1471C0.24 14.1471 0.473 15.8021 1.19 16.5291C2.105 17.4851 3.305 17.4521 3.84 17.5551C5.76 17.7381 12 17.7951 12 17.7951C12 17.7951 17.044 17.7851 20.4 17.5451C20.869 17.4901 21.89 17.4851 22.805 16.5291C23.527 15.8021 23.761 14.1471 23.761 14.1471C23.761 14.1471 24 12.2061 24 10.2601V8.44206C24 6.50206 23.76 4.55606 23.76 4.55606ZM9.52 12.4681V5.72306L16.003 9.10706L9.52 12.4681Z" fill="white"/>
-                                </svg>
-
-                            </a>
-                        </li>
-                        <li class="footer__social-item">
-                            <a href="https://www.instagram.com/quantfury/" class="footer__social-link" data-prefetch data-link  target="_blank" >
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.8775 0.06C6.94417 0.0125 7.28333 0 10 0C12.7167 0 13.0558 0.01 14.1225 0.06C15.1867 0.109167 15.9125 0.2775 16.55 0.525C17.2092 0.779167 17.7658 1.1225 18.3217 1.67833C18.8767 2.23417 19.22 2.7925 19.475 3.45C19.7217 4.08667 19.89 4.81333 19.94 5.8775C19.9875 6.94417 20 7.28333 20 10C20 12.7167 19.99 13.0558 19.94 14.1225C19.8908 15.1867 19.7217 15.9125 19.475 16.55C19.2208 17.2092 18.8767 17.7658 18.3217 18.3217C17.7658 18.8767 17.2067 19.22 16.55 19.475C15.9125 19.7217 15.1867 19.89 14.1225 19.94C13.0558 19.9875 12.7167 20 10 20C7.28333 20 6.94417 19.99 5.8775 19.94C4.81333 19.8908 4.08833 19.7217 3.45 19.475C2.79167 19.2208 2.23417 18.8767 1.67833 18.3217C1.1225 17.7658 0.78 17.2067 0.525 16.55C0.2775 15.9125 0.11 15.1867 0.06 14.1225C0.0125 13.0558 0 12.7167 0 10C0 7.28333 0.01 6.94417 0.06 5.8775C0.109167 4.8125 0.2775 4.0875 0.525 3.45C0.779167 2.79167 1.1225 2.23417 1.67833 1.67833C2.23417 1.1225 2.7925 0.78 3.45 0.525C4.0875 0.2775 4.8125 0.11 5.8775 0.06ZM4.91797 9.99761C4.91797 7.16261 7.21547 4.86261 10.053 4.86261C12.888 4.86261 15.188 7.16011 15.188 9.99761C15.188 12.8326 12.8905 15.1326 10.053 15.1326C7.21797 15.1326 4.91797 12.8351 4.91797 9.99761ZM6.71964 9.99761C6.71964 11.8393 8.2113 13.3309 10.053 13.3309C11.8947 13.3309 13.3863 11.8393 13.3863 9.99761C13.3863 8.15594 11.8947 6.66428 10.053 6.66428C8.2113 6.66428 6.71964 8.15594 6.71964 9.99761ZM15.3913 5.86011C16.053 5.86011 16.5913 5.32261 16.5913 4.66011C16.5913 3.99844 16.0522 3.46011 15.3913 3.46094C14.7297 3.46094 14.1913 3.99844 14.1913 4.66011C14.1913 5.32178 14.7288 5.86011 15.3913 5.86011Z" fill="white"/>
-                                </svg>
-
-                            </a>
-                        </li>
-                        <li class="footer__social-item">
-                            <a href="https://t.me/quantfury" class="footer__social-link" data-prefetch data-link  target="_blank" >
-                                <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.50631 8.67732C7.41068 6.1451 11.3413 4.4625 13.315 3.64619C18.9326 1.33055 20.1135 0.930722 20.8726 0.914062C21.0413 0.914062 21.4125 0.947381 21.6655 1.14729C21.8679 1.31389 21.9185 1.53046 21.9523 1.69705C21.986 1.86365 22.0198 2.21349 21.986 2.48004C21.6824 5.64532 20.3665 13.3253 19.6918 16.857C19.405 18.3564 18.8483 18.8562 18.3084 18.9061C17.1276 19.0061 16.2335 18.1398 15.1032 17.4068C13.315 16.2573 12.3197 15.541 10.5822 14.4081C8.57468 13.1087 9.87364 12.3923 11.0208 11.2262C11.3244 10.9263 16.5034 6.26171 16.6046 5.84523C16.6215 5.79525 16.6215 5.59534 16.5034 5.49538C16.3853 5.39542 16.2166 5.42874 16.0817 5.46206C15.8961 5.49538 13.062 7.36123 7.54563 11.0429C6.73589 11.5927 6.0105 11.8592 5.35258 11.8426C4.62719 11.8259 3.24388 11.4428 2.19797 11.1096C0.932744 10.7098 -0.0794328 10.4932 0.00491532 9.79349C0.0555242 9.42698 0.561612 9.06048 1.50631 8.67732Z" fill="white"/>
-                                </svg>
-
-                            </a>
-                        </li>
-                    </ul>
                 </div>
 
 
@@ -493,37 +407,37 @@
 
                             <ul class="footer-item__subnav">
                                 <li class="footer-item__subitem">
-                                    <a href="https://help.quantfury.com/en/articles/5448752-stocks" data-prefetch data-link
+                                    <a href="{{ route('login') }}" data-prefetch data-link
                                        class="footer-item__sublink"  target="_blank" >
                                         Stocks
                                     </a>
                                 </li>
                                 <li class="footer-item__subitem">
-                                    <a href="https://help.quantfury.com/en/articles/5448756-crypto-pairs" data-prefetch data-link
+                                    <a href="{{ route('login') }}" data-prefetch data-link
                                        class="footer-item__sublink"  target="_blank" >
                                         Crypto Pairs
                                     </a>
                                 </li>
                                 <li class="footer-item__subitem">
-                                    <a href="https://help.quantfury.com/en/articles/5448760-etfs" data-prefetch data-link
+                                    <a href="{{ route('login') }}" data-prefetch data-link
                                        class="footer-item__sublink"  target="_blank" >
                                         ETFs
                                     </a>
                                 </li>
                                 <li class="footer-item__subitem">
-                                    <a href="https://help.quantfury.com/en/articles/5448767-futures" data-prefetch data-link
+                                    <a href="{{ route('login') }}" data-prefetch data-link
                                        class="footer-item__sublink"  target="_blank" >
                                         Index Futures
                                     </a>
                                 </li>
                                 <li class="footer-item__subitem">
-                                    <a href="https://help.quantfury.com/en/articles/5448767-futures" data-prefetch data-link
+                                    <a href="{{ route('login') }}" data-prefetch data-link
                                        class="footer-item__sublink"  target="_blank" >
                                         Commodity Futures
                                     </a>
                                 </li>
                                 <li class="footer-item__subitem">
-                                    <a href="https://help.quantfury.com/en/articles/5448771-forex-pairs" data-prefetch data-link
+                                    <a href="{{ route('login') }}" data-prefetch data-link
                                        class="footer-item__sublink"  target="_blank" >
                                         Forex Pairs
                                     </a>
@@ -539,7 +453,7 @@
 
                             <ul class="footer-item__subnav">
                                 <li class="footer-item__subitem">
-                                    <a href="our-story/index.html" data-prefetch data-link
+                                    <a href="{{ route('about') }}" data-prefetch data-link
                                        class="footer-item__sublink" >
                                         Our story
                                     </a>
@@ -551,18 +465,6 @@
                                     </a>
                                 </li>
                                 <li class="footer-item__subitem">
-                                    <a href="team/index.html" data-prefetch data-link
-                                       class="footer-item__sublink" >
-                                        Team
-                                    </a>
-                                </li>
-                                <li class="footer-item__subitem">
-                                    <a href="gazette/index.html" data-prefetch data-link
-                                       class="footer-item__sublink" >
-                                        Gazette
-                                    </a>
-                                </li>
-                                <li class="footer-item__subitem">
                                     <a href="qtf-token/index.html" data-prefetch data-link
                                        class="footer-item__sublink"  target="_blank" >
                                         QTF Token
@@ -571,40 +473,7 @@
                             </ul>
                         </li>
                     </ul>
-                    <ul class="footer__list">
-                        <li class="footer__item footer-item--subnav">
-                            <a class="footer__item-link">
-                                Support
-                            </a>
 
-                            <ul class="footer-item__subnav">
-                                <li class="footer-item__subitem">
-                                    <a href="https://help.quantfury.com/en/collections/2871305-get-started" data-prefetch data-link
-                                       class="footer-item__sublink"  target="_blank" >
-                                        A Guide to Quantfury
-                                    </a>
-                                </li>
-                                <li class="footer-item__subitem">
-                                    <a href="https://help.quantfury.com/en/collections/2871306-trading-on-quantfury" data-prefetch data-link
-                                       class="footer-item__sublink"  target="_blank" >
-                                        Trading & Investing on TradesExcution
-                                    </a>
-                                </li>
-                                <li class="footer-item__subitem">
-                                    <a href="https://help.quantfury.com/en/collections/2871307-manage-your-account" data-prefetch data-link
-                                       class="footer-item__sublink"  target="_blank" >
-                                        Manage Your Account
-                                    </a>
-                                </li>
-                                <li class="footer-item__subitem">
-                                    <a href="https://help.quantfury.com/en/collections/2871308-troubleshooting-questions" data-prefetch data-link
-                                       class="footer-item__sublink"  target="_blank" >
-                                        Troubleshooting Questions
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
                 </nav>
 
             </div>
@@ -618,18 +487,7 @@
                     <p>TradesExcution                                        is authorized and regulated by Securities Commission of the Bahamas. View TradesExcution                                       ’s Brokerage license no. <a href="Registration-Certificate-TradesExcution                                       .pdf" target="_blank" rel="noopener">SIA-F204</a>. Search TradesExcution                                        Brokerage license <a href="https://www.scb.gov.bs/wp-content/uploads/2021/12/SIA-Firms-as-at-30-November-2021.pdf" target="_blank" rel="noopener">here</a>. View TradesExcution                                       &#8217;s custody of digital assets, wallet provider licence <a href="Quantfury-custody-of-digital-assets-wallet-provider-licence.pdf" target="_blank" rel="noopener">FCSPA NO. F-034</a>.</p>
 
                 </div>
-                <ul class="footer__legal-list">
-                    <li class="footer__legal-item">
-                        <a href="quantfury-terms-and-conditions.pdf" data-prefetch data-link class="footer__legal-link" target="_blank">
-                            Terms and Conditions
-                        </a>
-                    </li>
-                    <li class="footer__legal-item">
-                        <a href="quantfury-privacy-policy.pdf" data-prefetch data-link class="footer__legal-link" target="_blank">
-                            Privacy Policy
-                        </a>
-                    </li>
-                </ul>
+               
             </div>
         </div>
 

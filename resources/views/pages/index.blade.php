@@ -15,26 +15,10 @@
                     </div>
 
                     <div class="s-hero__links">
-                        <a href="https://trading.quantfury.com/" class="s-hero__ref s-hero__ref--lg btn btn--primary">
+                        <a href="{{ route('login') }}" class="s-hero__ref s-hero__ref--lg btn btn--primary">
                             View Live Trading
                         </a>
-                        <div class="s-hero__links-app">
-                            <a class="s-hero__ref" href="https://app.appsflyer.com/id1445564443" data-ref>
-                                <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="28" cy="28" r="27.4615" stroke="#62CBC1" stroke-width="1.07692"/>
-                                    <path d="M34.5259 27.6915C34.5485 26.7105 34.8119 25.75 35.293 24.8948C35.7741 24.0395 36.4581 23.3157 37.2848 22.787C36.7603 22.0191 36.0603 21.3874 35.2428 20.9442C34.4253 20.501 33.5139 20.2592 32.5843 20.2387C30.6426 20.0347 28.701 21.4651 27.6798 21.4651C26.6586 21.4651 25.1249 20.3406 23.3886 20.3406C22.2961 20.3808 21.2326 20.703 20.3015 21.2757C19.3704 21.8485 18.6033 22.6525 18.0748 23.6094C15.8272 27.5947 17.4616 33.4158 19.7092 36.5852C20.8337 38.1176 22.0627 39.854 23.7965 39.854C25.4309 39.752 26.0441 38.8328 27.9805 38.8328C29.917 38.8328 30.5354 39.8513 32.277 39.8513C34.0186 39.8513 35.1379 38.3189 36.1603 36.6832C36.891 35.5196 37.5071 34.2878 38 33.0052C37.0139 32.4917 36.1764 31.7333 35.568 30.8027C34.9596 29.8722 34.6007 28.8008 34.5259 27.6915Z" fill="white"/>
-                                    <path d="M31.3661 18.088C31.8569 17.5347 32.2282 16.886 32.4569 16.1826C32.6855 15.4792 32.7665 14.7362 32.6947 14C31.2515 14.2024 29.9192 14.8868 28.9141 15.942C28.438 16.4842 28.0751 17.1162 27.847 17.8007C27.6188 18.4853 27.5298 19.2086 27.5854 19.928C28.3134 19.9255 29.0314 19.7587 29.686 19.4401C30.3406 19.1215 30.9149 18.6594 31.3661 18.088Z" fill="white"/>
-                                </svg>
 
-                            </a>
-                            <a class="s-hero__ref" href="https://app.appsflyer.com/com.quantfury" data-ref>
-                                <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="28" cy="28" r="27.4615" stroke="#62CBC1" stroke-width="1.07692"/>
-                                    <path d="M21.4055 40.7148C21.1088 40.7209 20.8179 40.6327 20.5746 40.463L20.5213 40.5207L20.4346 40.4341C20.4035 40.3931 20.3735 40.3498 20.3458 40.3066L31.9289 28.7334L35.9569 32.7542L22.4309 40.4286C22.1187 40.6089 21.766 40.7073 21.4055 40.7148ZM20.1358 39.8816C20.0418 39.6117 19.9959 39.3275 20.0003 39.0417V17.7916C19.9978 17.5049 20.0406 17.2196 20.1269 16.9461L31.6134 28.4183L20.138 39.8805L20.1358 39.8816ZM36.3546 32.5279L32.2443 28.4228L36.4779 24.1889L36.5001 24.2111L41.1891 26.8994C41.4593 27.0256 41.6916 27.2202 41.8631 27.4639C42.0346 27.7076 42.1393 27.9919 42.1667 28.2885C42.139 28.5848 42.0343 28.8686 41.8628 29.1119C41.6913 29.3552 41.459 29.5495 41.1891 29.6754L36.5001 32.3648L36.4568 32.4081L36.499 32.4502L36.3601 32.529L36.3546 32.5279ZM31.9244 28.1032L20.3336 16.5234C20.364 16.4812 20.3978 16.4415 20.4346 16.4047C20.5464 16.2723 20.6869 16.1671 20.8456 16.0971C21.0042 16.0271 21.1767 15.9942 21.35 16.0008C21.731 16.0139 22.1027 16.1222 22.4309 16.3159L36.0158 24.0214L31.93 28.1021L31.9244 28.1032Z" fill="white"/>
-                                </svg>
-
-                            </a>
-                        </div>
                     </div>
                 </div>
 
@@ -94,7 +78,7 @@
         <section class="s-steps ">
             <ul class="s-steps__list">
                 <li class="s-steps__item">
-                    <a class="s-steps__item-wrap-link" href="https://help.quantfury.com/en/articles/5448752-stocks"  target="_blank" >
+                    <a class="s-steps__item-wrap-link"   target="_blank" >
                         <div class="s-steps__item-top">
                             <div class="s-steps__item-counter">
                                 1520
@@ -107,13 +91,10 @@
                             Go long on stocks you like and short ones you don’t.
                         </div>
 
-                        <div class="s-steps__item-more">
-                            <span class="s-steps__item-more-link">Learn more</span>
-                        </div>
                     </a>
                 </li>
                 <li class="s-steps__item">
-                    <a class="s-steps__item-wrap-link" href="https://help.quantfury.com/en/articles/5448756-crypto-pairs"  target="_blank" >
+                    <a class="s-steps__item-wrap-link"   target="_blank" >
                         <div class="s-steps__item-top">
                             <div class="s-steps__item-counter">
                                 45
@@ -126,13 +107,10 @@
                             Conquer the most challenging markets that never sleep.
                         </div>
 
-                        <div class="s-steps__item-more">
-                            <span class="s-steps__item-more-link">Learn more</span>
-                        </div>
                     </a>
                 </li>
                 <li class="s-steps__item">
-                    <a class="s-steps__item-wrap-link" href="https://help.quantfury.com/en/articles/5448760-etfs"  target="_blank" >
+                    <a class="s-steps__item-wrap-link"   target="_blank" >
                         <div class="s-steps__item-top">
                             <div class="s-steps__item-counter">
                                 44
@@ -144,14 +122,10 @@
                         <div class="s-steps__item-description">
                             Manage your risks with exposure to many stocks at once.
                         </div>
-
-                        <div class="s-steps__item-more">
-                            <span class="s-steps__item-more-link">Learn more</span>
-                        </div>
                     </a>
                 </li>
                 <li class="s-steps__item">
-                    <a class="s-steps__item-wrap-link" href="https://help.quantfury.com/en/articles/5448767-futures"  target="_blank" >
+                    <a class="s-steps__item-wrap-link"   target="_blank" >
                         <div class="s-steps__item-top">
                             <div class="s-steps__item-counter">
                                 6
@@ -163,14 +137,10 @@
                         <div class="s-steps__item-description">
                             Speculate on global market movements.
                         </div>
-
-                        <div class="s-steps__item-more">
-                            <span class="s-steps__item-more-link">Learn more</span>
-                        </div>
                     </a>
                 </li>
                 <li class="s-steps__item">
-                    <a class="s-steps__item-wrap-link" href="https://help.quantfury.com/en/articles/5448767-futures"  target="_blank" >
+                    <a class="s-steps__item-wrap-link"   target="_blank" >
                         <div class="s-steps__item-top">
                             <div class="s-steps__item-counter">
                                 8
@@ -183,13 +153,10 @@
                             Find opportunities in the global trade of commodities.
                         </div>
 
-                        <div class="s-steps__item-more">
-                            <span class="s-steps__item-more-link">Learn more</span>
-                        </div>
                     </a>
                 </li>
                 <li class="s-steps__item">
-                    <a class="s-steps__item-wrap-link" href="https://help.quantfury.com/en/articles/5448771-forex-pairs"  target="_blank" >
+                    <a class="s-steps__item-wrap-link"   target="_blank" >
                         <div class="s-steps__item-top">
                             <div class="s-steps__item-counter">
                                 24
@@ -200,10 +167,6 @@
                         </div>
                         <div class="s-steps__item-description">
                             Take part in global marketplace for exchanging national currencies.
-                        </div>
-
-                        <div class="s-steps__item-more">
-                            <span class="s-steps__item-more-link">Learn more</span>
                         </div>
                     </a>
                 </li>
@@ -279,7 +242,7 @@
                         </div>
 
                         <footer class="s-regular__footer">
-                            <a class="s-regular__link btn btn--primary" data-prefetch data-link href="https://qtf.TradesExcution                                       .com/"  target="_blank" >
+                            <a class="s-regular__link btn btn--primary" data-prefetch data-link href="{{ route('login') }}"  target="_blank" >
                                 Access
                             </a>
                         </footer>
@@ -312,7 +275,7 @@
                     </h2>
 
                     <div class="s-about__footer">
-                        <a class="s-about__link btn btn--primary" href="about-us/index.html">
+                        <a class="s-about__link btn btn--primary" href="{{ route('about') }}">
                             Learn more about us
                         </a>
                     </div>
