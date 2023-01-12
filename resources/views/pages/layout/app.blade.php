@@ -22,12 +22,6 @@
     <meta property="og:description" content="TradesExecution – trade and invest FREE of commissions and borrowing fees at real-time spot prices of global exchanges." />
     <meta property="og:url" content="index.html" />
     <meta property="og:site_name" content="TradesExecution" />
-    <meta property="article:modified_time" content="2022-11-19T22:41:22+00:00" />
-    <meta property="og:image" content="wp-content/uploads/2022/06/facebook-OG-img.jpg" />
-    <meta property="og:image:width" content="2400" />
-    <meta property="og:image:height" content="1260" />
-    <meta property="og:image:type" content="image/jpeg" />
-    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="TradesExecution | Everybody&#039;s Honest Trading &amp; Investing" />
     <meta name="twitter:description" content="TradesExecution – trade and invest FREE of commissions and borrowing fees at real-time spot prices of global exchanges." />
     <meta name="twitter:image" content="wp-content/uploads/2022/06/facebook-OG-img.jpg" />
@@ -487,7 +481,7 @@
                     <p>TradesExcution                                        is authorized and regulated by Securities Commission of the Bahamas. View TradesExcution                                       ’s Brokerage license no. <a href="Registration-Certificate-TradesExcution                                       .pdf" target="_blank" rel="noopener">SIA-F204</a>. Search TradesExcution                                        Brokerage license <a href="https://www.scb.gov.bs/wp-content/uploads/2021/12/SIA-Firms-as-at-30-November-2021.pdf" target="_blank" rel="noopener">here</a>. View TradesExcution                                       &#8217;s custody of digital assets, wallet provider licence <a href="Quantfury-custody-of-digital-assets-wallet-provider-licence.pdf" target="_blank" rel="noopener">FCSPA NO. F-034</a>.</p>
 
                 </div>
-               
+
             </div>
         </div>
 
