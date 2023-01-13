@@ -227,7 +227,7 @@
         <div class="pull-right d-none d-sm-inline-block">
 
         </div>
-        &copy; 2020 <a href="https://www.Tradesexecutions.com/">Tradesexecutions</a>. All Rights Reserved.
+        &copy; 2023 <a href="https://www.Tradesexecutions.com/">Tradesexecutions</a>. All Rights Reserved.
     </footer>
 
 
