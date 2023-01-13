@@ -28,10 +28,9 @@
                 </div>
 
                 <div class="s-story__text el-wysiwyg">
-                    <p>TradesExecution story begins almost 3 decades ago, when our founder read Isaac Asimov’s Foundation series, and learned about the concept of psychohistory and the character of Hari Seldon.</p>
-                    <p>The idea of predicting events guided him 10 years later to start working in the financial industry as a trader in the early 90s. Since then, Lev has been a quantitative trader of proprietary capital, forex, futures, commodities and equity markets, working in various financial institutions and has seen the global financial trading industry expanding from serving few, to pretty much everybody with a mobile phone or computer.</p>
-                    <p class="p1">Struck by the global brokerage industry practices of quoting incorrect asset prices and charging various fees, promoting greed and churning and burning users, came up with an idea of TradesExecution and the Quantfurian principles based on trading with unmatched conditions, and a unique transparent business model that is shared with Quantfurians as well.</p>
-
+                    <p>The idea of predicting events guided us 10 years to start working in the financial industry as a trader in the late 90s. Since then, we have been a quantitative traders of proprietary capital, forex, futures, commodities and equity markets, working in various financial institutions and has seen the global financial trading industry expanding from serving few, to pretty much everybody with a mobile phone or computer.
+                    </p>
+                    <p class="p1">Struck by the global brokerage industry practices of quoting incorrect asset prices and charging various fees, promoting greed and churning and burning users, We came up with an idea of Trade Executions and the principles based on trading with unmatched conditions, and a unique transparent business model that is shared with traders as well.</p>
                 </div>
             </div>
         </div>
