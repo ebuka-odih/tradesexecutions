@@ -458,12 +458,6 @@
                                         Commitments
                                     </a>
                                 </li>
-                                <li class="footer-item__subitem">
-                                    <a href="qtf-token/index.html" data-prefetch data-link
-                                       class="footer-item__sublink"  target="_blank" >
-                                        QTF Token
-                                    </a>
-                                </li>
                             </ul>
                         </li>
                     </ul>
@@ -476,7 +470,7 @@
 
             <div class="footer__legal">
                 <div class="footer__legal-text" data-legal-text>
-                    <p>© 2022 TradesExcution                                       . All rights reserved.</p>
+                    <p>© 2023 TradesExcution                                       . All rights reserved.</p>
                     <p>TradesExcution                                        means TradesExcution                                        Trading Limited and its mobile app and web-based application. </p>
                     <p>TradesExcution                                        is authorized and regulated by Securities Commission of the Bahamas. View TradesExcution                                       ’s Brokerage license no. <a href="Registration-Certificate-TradesExcution                                       .pdf" target="_blank" rel="noopener">SIA-F204</a>. Search TradesExcution                                        Brokerage license <a href="https://www.scb.gov.bs/wp-content/uploads/2021/12/SIA-Firms-as-at-30-November-2021.pdf" target="_blank" rel="noopener">here</a>. View TradesExcution                                       &#8217;s custody of digital assets, wallet provider licence <a href="Quantfury-custody-of-digital-assets-wallet-provider-licence.pdf" target="_blank" rel="noopener">FCSPA NO. F-034</a>.</p>
 
