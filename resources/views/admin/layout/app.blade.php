@@ -178,6 +178,12 @@
                             <span class="nav-main-link-name">Subscription</span>
                         </a>
                     </li>
+                    <li class="nav-main-item">
+                        <a class="nav-main-link "  href="{{ route('admin.trader.create') }}">
+                            <i class="nav-main-link-icon fa fa-user-astronaut"></i>
+                            <span class="nav-main-link-name">Traders</span>
+                        </a>
+                    </li>
 
                     <li class="nav-main-heading">User</li>
                     <li class="nav-main-item">

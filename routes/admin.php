@@ -57,4 +57,9 @@ Route::group(['middleware' => ['auth', 'verified', 'admin'], 'prefix' => 'admin'
     Route::get('edit/message/{id}', "Admin\AdminMessageController@editMessage")->name('editMessage');
     Route::patch('update/message/{id}', "Admin\AdminMessageController@updateMessage")->name('updateMessage');
 
+//    Traders Route
+    Route::get('traders', "Admin\AdminTraderController@create")->name('trader.create');
+    Route::post('save/trader', "Admin\AdminTraderController@store")->name('trader.store');
+    Route::get('edit/trader/{id}', "Admin\AdminTraderController@edit")->name('trader.edit');
+    Route::delete('destroy/trader/{id}', "Admin\AdminTraderController@destroy")->name('trader.destroy');
 });

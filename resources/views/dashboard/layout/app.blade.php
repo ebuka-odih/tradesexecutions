@@ -165,6 +165,12 @@
                                 <span>Subscribe</span>
                             </a>
                         </li>
+                        <li class="">
+                            <a href="{{ route('user.sub.plans') }}">
+                                <i class="fa fa-copy text-primary"></i>
+                                <span>Copy Trader</span>
+                            </a>
+                        </li>
                         <li class="header">History </li>
                         <li class="treeview">
                             <a href="#">

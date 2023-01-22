@@ -32,7 +32,6 @@
                                 <th class="wd-30p"> Name</th>
                                 <th class="wd-60p">Action</th>
                                 <th class="wd-60p">Value</th>
-
                             </tr>
                             </thead>
                             <tbody>
