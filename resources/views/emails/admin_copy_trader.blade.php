@@ -21,11 +21,11 @@
     </tr>
     <tr>
         <th>Trader:</th>
-        <td>{{ $trader->name }}</td>
+        <td>{{ $trader->trader->name }}</td>
     </tr>
     <tr>
         <th>Trader Position:</th>
-        <td>{{ $trader->position }}</td>
+        <td>{{ $trader->trader->position }}</td>
     </tr>
 </table>
 
