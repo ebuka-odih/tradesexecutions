@@ -35,7 +35,7 @@
             <a href="{{ route('index') }}" class="logo">
                 <!-- logo-->
                 <div class="logo-lg">
-                    <h3 class="mt-3" style="font-weight: bolder; color: #1288c9 !important">Tradesexecutions</h3>
+                    <h3 class="mt-3" style="font-weight: bolder; color: #1288c9 !important">Trades <br>Executions</h3>
 
                 </div>
             </a>
@@ -166,7 +166,7 @@
                             </a>
                         </li>
                         <li class="">
-                            <a href="{{ route('user.sub.plans') }}">
+                            <a href="{{ route('user.traders') }}">
                                 <i class="fa fa-copy text-primary"></i>
                                 <span>Copy Trader</span>
                             </a>

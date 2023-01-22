@@ -71,6 +71,9 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'user', 'as' => 'user.'], fu
     Route::get('subscription/success/{id}', "SubscribeController@Subsuccess")->name('Subsuccess');
 
     Route::resource('message', "MessageController");
+
+    Route::get('copy/trader', "TradersController@traders")->name('traders');
+    Route::post('copy/trader', "TradersController@copyTrader")->name('copyTrader');
 });
 
 include 'admin.php';

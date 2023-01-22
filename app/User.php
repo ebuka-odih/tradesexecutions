@@ -105,9 +105,13 @@ class User extends Authenticatable implements MustVerifyEmail
     {
         return $this->hasMany(Subscribe::class, "user_id");
     }
-    public function user()
+    public function message()
     {
         return $this->hasMany(Message::class, 'user_id');
+    }
+    public function copytrader()
+    {
+        return $this->hasMany(CopyTrader::class, "user_id");
     }
 
     public function getProfilePicAttribute($value) {

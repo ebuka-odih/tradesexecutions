@@ -171,6 +171,12 @@
                             <span class="nav-main-link-name">Subscribers</span>
                         </a>
                     </li>
+                    <li class="nav-main-item">
+                        <a class="nav-main-link "  href="{{ route('admin.copied_traders') }}">
+                            <i class="nav-main-link-icon fa fa-clipboard"></i>
+                            <span class="nav-main-link-name">Copied Traders</span>
+                        </a>
+                    </li>
                     <li class="nav-main-heading">Subscription</li>
                     <li class="nav-main-item">
                         <a class="nav-main-link "  href="{{ route('admin.subscription.create') }}">

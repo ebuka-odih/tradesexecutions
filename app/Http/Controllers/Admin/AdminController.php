@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\CopyTrader;
 use App\Deposit;
 use App\Http\Controllers\Controller;
 //use App\Investment;
@@ -63,5 +64,11 @@ class AdminController extends Controller
         $user->balance -= $request->amount;
         $user->save();
         return redirect()->back()->with('success', "Profit Edited Successfully");
+    }
+
+    public function copied_traders()
+    {
+        $copied_traders = CopyTrader::all();
+        return view('admin.copied-traders', compact('copied_traders'));
     }
 }
