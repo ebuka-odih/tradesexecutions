@@ -52,7 +52,6 @@
                                                         </th>
                                                         <th>Date</th>
                                                         <th>Trader</th>
-                                                        <th class="text-center" style="width: 200px;">Actions</th>
                                                     </tr>
                                                     </thead>
                                                     <tbody>
@@ -71,33 +70,6 @@
                                                                 {{ $item->trader->name }}
                                                             </td>
 
-                                                            <td >
-                                                                @if($item->status == 0)
-                                                                    <a href="{{ route('admin.view_deposit', $item->id) }}" class="btn btn-sm btn-alt-secondary js-bs-tooltip-enabled" data-bs-toggle="tooltip" title="View Deposit" data-bs-original-title="View">
-                                                                        <i class="fa fa-eye"></i>
-                                                                    </a>
-                                                                    <a href="{{ route('admin.approve_deposit', $item->id) }}" class="btn btn-sm btn-alt-secondary js-bs-tooltip-enabled" data-bs-toggle="tooltip" title="Approve Deposit" data-bs-original-title="Approve">
-                                                                        <i class="fa fa-check"></i>
-                                                                    </a>
-                                                                    {{--                                                    <a href="{{ route('admin.approve_deposit', $item->id) }}" class="btn btn-sm btn-success mb-1">Approve</a>--}}
-                                                                @else
-                                                                @endif
-                                                                <form method="POST" action="{!! route('admin.deleteDeposit', $item->id) !!}" accept-charset="UTF-8">
-                                                                    <input name="_method" value="DELETE" type="hidden">
-                                                                    {{ csrf_field() }}
-
-                                                                    <div class="btn-group btn-group-xs pull-right" role="group">
-                                                                        <button data-toggle="tooltip" data-placement="top" type="submit" class="btn  btn-sm btn-danger" onclick="return confirm(&quot;Delete Deposit?&quot;)">
-                                                                            <span class="fa flaticon-delete" aria-hidden="true"></span>Delete
-                                                                        </button>
-
-
-                                                                    </div>
-
-                                                                </form>
-                                                                <button type="button" class="btn btn-sm btn-primary push mt-2" data-bs-toggle="modal" data-bs-target="#modal-block-popin">Edit Date</button>
-
-                                                            </td>
                                                         </tr>
                                                     @endforeach
                                                     </tbody>
