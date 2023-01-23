@@ -146,7 +146,30 @@
                         </div>
                         <div class="box">
                             <div class="box-body px-0">
-                                <iframe src="https://widget.coinlib.io/widget?type=chart&amp;theme=dark&amp;coin_id=859&amp;pref_coin_id=1505" width="100%" height="100%" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;line-height:14px; min-height: 478px"></iframe>
+                                <!-- TradingView Widget BEGIN -->
+                                <div style="height: 500px" class="tradingview-widget-container">
+                                    <div id="tradingview_f3e19"></div>
+                                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPL stock chart</span></a> by TradingView</div>
+                                    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+                                    <script type="text/javascript">
+                                        new TradingView.widget(
+                                            {
+                                                "autosize": true,
+                                                "symbol": "NASDAQ:AAPL",
+                                                "interval": "D",
+                                                "timezone": "Etc/UTC",
+                                                "theme": "dark",
+                                                "style": "1",
+                                                "locale": "en",
+                                                "toolbar_bg": "#f1f3f6",
+                                                "enable_publishing": false,
+                                                "allow_symbol_change": true,
+                                                "container_id": "tradingview_f3e19"
+                                            }
+                                        );
+                                    </script>
+                                </div>
+                                <!-- TradingView Widget END -->
                             </div>
                         </div>
                     </div>
