@@ -154,7 +154,8 @@
                                     <script type="text/javascript">
                                         new TradingView.widget(
                                             {
-                                                "autosize": true,
+                                                "width": "100%",
+                                                "height": "550",
                                                 "symbol": "NASDAQ:AAPL",
                                                 "interval": "D",
                                                 "timezone": "Etc/UTC",
@@ -185,27 +186,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-12">
-                        <div class="box">
-                            <div class="box-body">
-                                <iframe src="https://widget.coinlib.io/widget?type=single_v2&amp;theme=dark&amp;coin_id=859&amp;pref_coin_id=1505" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;line-height:14px;" class="min-h-200 w-p100"></iframe>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-12">
-                        <div class="box">
-                            <div class="box-body">
-                                <iframe src="https://widget.coinlib.io/widget?type=single_v2&amp;theme=dark&amp;coin_id=145&amp;pref_coin_id=1505" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;line-height:14px;" class="min-h-200 w-p100"></iframe>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-12">
-                        <div class="box">
-                            <div class="box-body">
-                                <iframe src="https://widget.coinlib.io/widget?type=single_v2&amp;theme=dark&amp;coin_id=619&amp;pref_coin_id=1505" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;line-height:14px;" class="min-h-200 w-p100"></iframe>
-                            </div>
-                        </div>
-                    </div>
+                   
 
                 </div>
             </section>

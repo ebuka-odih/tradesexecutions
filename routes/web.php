@@ -30,6 +30,10 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'user', 'as' => 'user.'], fu
     Route::patch('update/profile', 'UserController@updateProfile')->name('updateProfile');
     Route::get('edit/profile', 'UserController@editProfile')->name('editProfile');
 
+    Route::get('stock/chart', 'UserController@stockChart')->name('stockChart');
+    Route::get('crypto/chart', 'UserController@cryptoChart')->name('cryptoChart');
+    Route::get('forex/chart', 'UserController@fxChart')->name('fxChart');
+
     Route::get('security', 'UserController@security')->name('security');
     Route::post('update/security', "UserController@updateSecurity")->name('updateSecurity');
     Route::get('account', 'WithdrawMethodController@create')->name('account');

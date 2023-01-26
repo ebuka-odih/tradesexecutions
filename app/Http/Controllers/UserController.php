@@ -75,6 +75,18 @@ class UserController extends Controller
         return redirect()->back()->with('success', "Password Changed Successfully");
     }
 
+    public function cryptoChart()
+    {
+        return view('dashboard.crypto-chart');
+    }
+    public function stockChart()
+    {
+        return view('dashboard.stock-chart');
+    }
+    public function fxChart()
+    {
+        return view('dashboard.fx-charts');
+    }
 
 
 }

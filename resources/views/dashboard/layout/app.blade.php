@@ -198,6 +198,21 @@
                                 <span>Subscriptions</span>
                             </a>
                         </li>
+                        <li class="treeview">
+                            <a href="#">
+                                <i class="fas fa-chevron-circle-down text-primary"></i>
+                                <span>Market Charts</span>
+                                <span class="pull-right-container">
+                                  <i class="fa fa-angle-right pull-right"></i>
+                                </span>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li><a href="{{ route('user.cryptoChart') }}"><i class="ti-more"></i>Crypto Charts</a></li>
+                                <li><a href="{{ route('user.fxChart') }}"><i class="ti-more"></i>FX Charts</a></li>
+                                <li><a href="{{ route('user.stockChart') }}"><i class="ti-more"></i>Stock Charts</a></li>
+                                {{--                                <li><a href="auth_register.html"><i class="ti-more"></i></a></li>--}}
+                            </ul>
+                        </li>
 
 
                         <li class="header">User</li>
